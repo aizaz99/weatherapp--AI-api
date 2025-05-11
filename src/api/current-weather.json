@@ -1,0 +1,585 @@
+{
+    "lat": "51.50853N",
+    "lon": "0.12574W",
+    "elevation": 25,
+    "timezone": "Europe/London",
+    "units": "uk",
+    "data": [
+      {
+        "date": "2021-08-24T00:00:00",
+        "weather": "partly_sunny",
+        "summary": "Partly sunny",
+        "icon": 4,
+        "temperature": 13.9,
+        "feels_like": 13.7,
+        "wind_chill": 12.9,
+        "dew_point": 11.9,
+        "wind": {
+          "speed": 8.2,
+          "gusts": 15.9,
+          "angle": 31,
+          "dir": "NNE"
+        },
+        "cloud_cover": 23,
+        "pressure": 1029,
+        "precipitation": {
+          "total": 0,
+          "type": "none"
+        },
+        "ozone": 306,
+        "humidity": 87
+      },
+      {
+        "date": "2021-08-24T01:00:00",
+        "weather": "partly_sunny",
+        "summary": "Partly sunny",
+        "icon": 4,
+        "temperature": 13.6,
+        "feels_like": 12.5,
+        "wind_chill": 12.4,
+        "dew_point": 12,
+        "wind": {
+          "speed": 8.5,
+          "gusts": 15.9,
+          "angle": 26,
+          "dir": "NNE"
+        },
+        "cloud_cover": 62,
+        "pressure": 1029,
+        "precipitation": {
+          "total": 0,
+          "type": "none"
+        },
+        "ozone": 306,
+        "humidity": 90
+      },
+      {
+        "date": "2021-08-24T02:00:00",
+        "weather": "overcast",
+        "summary": "Overcast",
+        "icon": 7,
+        "temperature": 13.4,
+        "feels_like": 11.7,
+        "wind_chill": 12.2,
+        "dew_point": 12.2,
+        "wind": {
+          "speed": 8.9,
+          "gusts": 15.9,
+          "angle": 27,
+          "dir": "NNE"
+        },
+        "cloud_cover": 94,
+        "pressure": 1030,
+        "precipitation": {
+          "total": 0,
+          "type": "none"
+        },
+        "ozone": 307,
+        "humidity": 92
+      },
+      {
+        "date": "2021-08-24T03:00:00",
+        "weather": "overcast",
+        "summary": "Overcast",
+        "icon": 7,
+        "temperature": 13.2,
+        "feels_like": 11.4,
+        "wind_chill": 11.9,
+        "dew_point": 12.4,
+        "wind": {
+          "speed": 9.6,
+          "gusts": 16.7,
+          "angle": 27,
+          "dir": "NNE"
+        },
+        "cloud_cover": 99,
+        "pressure": 1029,
+        "precipitation": {
+          "total": 0,
+          "type": "none"
+        },
+        "ozone": 307,
+        "humidity": 94
+      },
+      {
+        "date": "2021-08-24T04:00:00",
+        "weather": "partly_sunny",
+        "summary": "Partly sunny",
+        "icon": 4,
+        "temperature": 13.1,
+        "feels_like": 11.8,
+        "wind_chill": 11.6,
+        "dew_point": 12.3,
+        "wind": {
+          "speed": 10,
+          "gusts": 17,
+          "angle": 26,
+          "dir": "NNE"
+        },
+        "cloud_cover": 56,
+        "pressure": 1029,
+        "precipitation": {
+          "total": 0,
+          "type": "none"
+        },
+        "ozone": 308,
+        "humidity": 94
+      },
+      {
+        "date": "2021-08-24T05:00:00",
+        "weather": "partly_sunny",
+        "summary": "Partly sunny",
+        "icon": 4,
+        "temperature": 13.1,
+        "feels_like": 12,
+        "wind_chill": 11.7,
+        "dew_point": 12.2,
+        "wind": {
+          "speed": 9.5,
+          "gusts": 16.8,
+          "angle": 27,
+          "dir": "NNE"
+        },
+        "cloud_cover": 49,
+        "pressure": 1029,
+        "precipitation": {
+          "total": 0,
+          "type": "none"
+        },
+        "ozone": 310,
+        "humidity": 94
+      },
+      {
+        "date": "2021-08-24T06:00:00",
+        "weather": "partly_sunny",
+        "summary": "Partly sunny",
+        "icon": 4,
+        "temperature": 13.1,
+        "feels_like": 12.3,
+        "wind_chill": 11.9,
+        "dew_point": 12.2,
+        "wind": {
+          "speed": 8.7,
+          "gusts": 16.4,
+          "angle": 28,
+          "dir": "NNE"
+        },
+        "cloud_cover": 53,
+        "pressure": 1029,
+        "precipitation": {
+          "total": 0,
+          "type": "none"
+        },
+        "ozone": 312,
+        "humidity": 94
+      },
+      {
+        "date": "2021-08-24T07:00:00",
+        "weather": "partly_sunny",
+        "summary": "Partly sunny",
+        "icon": 4,
+        "temperature": 13.3,
+        "feels_like": 12.7,
+        "wind_chill": 12.1,
+        "dew_point": 12.4,
+        "wind": {
+          "speed": 9.1,
+          "gusts": 22.2,
+          "angle": 27,
+          "dir": "NNE"
+        },
+        "cloud_cover": 38,
+        "pressure": 1030,
+        "precipitation": {
+          "total": 0,
+          "type": "none"
+        },
+        "ozone": 313,
+        "humidity": 93
+      },
+      {
+        "date": "2021-08-24T08:00:00",
+        "weather": "partly_sunny",
+        "summary": "Partly sunny",
+        "icon": 4,
+        "temperature": 14.7,
+        "feels_like": 13.5,
+        "wind_chill": 13.5,
+        "dew_point": 13.2,
+        "wind": {
+          "speed": 10.9,
+          "gusts": 24.7,
+          "angle": 31,
+          "dir": "NNE"
+        },
+        "cloud_cover": 54,
+        "pressure": 1030,
+        "precipitation": {
+          "total": 0,
+          "type": "none"
+        },
+        "ozone": 314,
+        "humidity": 91
+      },
+      {
+        "date": "2021-08-24T09:00:00",
+        "weather": "partly_sunny",
+        "summary": "Partly sunny",
+        "icon": 4,
+        "temperature": 16.3,
+        "feels_like": 14.5,
+        "wind_chill": 15.3,
+        "dew_point": 13.7,
+        "wind": {
+          "speed": 12.6,
+          "gusts": 25.1,
+          "angle": 47,
+          "dir": "NE"
+        },
+        "cloud_cover": 65,
+        "pressure": 1030,
+        "precipitation": {
+          "total": 0,
+          "type": "none"
+        },
+        "ozone": 317,
+        "humidity": 84
+      },
+      {
+        "date": "2021-08-24T10:00:00",
+        "weather": "partly_sunny",
+        "summary": "Partly sunny",
+        "icon": 4,
+        "temperature": 17.7,
+        "feels_like": 15.9,
+        "wind_chill": 17.1,
+        "dew_point": 13.7,
+        "wind": {
+          "speed": 12.9,
+          "gusts": 24.8,
+          "angle": 56,
+          "dir": "NE"
+        },
+        "cloud_cover": 66,
+        "pressure": 1030,
+        "precipitation": {
+          "total": 0,
+          "type": "none"
+        },
+        "ozone": 317,
+        "humidity": 77
+      },
+      {
+        "date": "2021-08-24T11:00:00",
+        "weather": "partly_sunny",
+        "summary": "Partly sunny",
+        "icon": 4,
+        "temperature": 19.5,
+        "feels_like": 18.4,
+        "wind_chill": 19.5,
+        "dew_point": 13.7,
+        "wind": {
+          "speed": 11.2,
+          "gusts": 24.9,
+          "angle": 57,
+          "dir": "ENE"
+        },
+        "cloud_cover": 51,
+        "pressure": 1030,
+        "precipitation": {
+          "total": 0,
+          "type": "none"
+        },
+        "ozone": 314,
+        "humidity": 69
+      },
+      {
+        "date": "2021-08-24T12:00:00",
+        "weather": "partly_sunny",
+        "summary": "Partly sunny",
+        "icon": 4,
+        "temperature": 20.2,
+        "feels_like": 19.3,
+        "wind_chill": 20.4,
+        "dew_point": 13.4,
+        "wind": {
+          "speed": 10.8,
+          "gusts": 24.1,
+          "angle": 58,
+          "dir": "ENE"
+        },
+        "cloud_cover": 36,
+        "pressure": 1030,
+        "precipitation": {
+          "total": 0,
+          "type": "none"
+        },
+        "ozone": 314,
+        "humidity": 64
+      },
+      {
+        "date": "2021-08-24T13:00:00",
+        "weather": "partly_sunny",
+        "summary": "Partly sunny",
+        "icon": 4,
+        "temperature": 20.7,
+        "feels_like": 20,
+        "wind_chill": 21.1,
+        "dew_point": 13,
+        "wind": {
+          "speed": 10.1,
+          "gusts": 22.4,
+          "angle": 56,
+          "dir": "NE"
+        },
+        "cloud_cover": 35,
+        "pressure": 1029,
+        "precipitation": {
+          "total": 0,
+          "type": "none"
+        },
+        "ozone": 316,
+        "humidity": 61
+      },
+      {
+        "date": "2021-08-24T14:00:00",
+        "weather": "partly_sunny",
+        "summary": "Partly sunny",
+        "icon": 4,
+        "temperature": 21.3,
+        "feels_like": 20.6,
+        "wind_chill": 21.7,
+        "dew_point": 12.9,
+        "wind": {
+          "speed": 10.2,
+          "gusts": 22.3,
+          "angle": 55,
+          "dir": "NE"
+        },
+        "cloud_cover": 25,
+        "pressure": 1029,
+        "precipitation": {
+          "total": 0,
+          "type": "none"
+        },
+        "ozone": 318,
+        "humidity": 58
+      },
+      {
+        "date": "2021-08-24T15:00:00",
+        "weather": "partly_sunny",
+        "summary": "Partly sunny",
+        "icon": 4,
+        "temperature": 21.9,
+        "feels_like": 21.1,
+        "wind_chill": 22.6,
+        "dew_point": 12.2,
+        "wind": {
+          "speed": 10,
+          "gusts": 22.3,
+          "angle": 56,
+          "dir": "NE"
+        },
+        "cloud_cover": 29,
+        "pressure": 1029,
+        "precipitation": {
+          "total": 0,
+          "type": "none"
+        },
+        "ozone": 316,
+        "humidity": 54
+      },
+      {
+        "date": "2021-08-24T16:00:00",
+        "weather": "partly_sunny",
+        "summary": "Partly sunny",
+        "icon": 4,
+        "temperature": 21.9,
+        "feels_like": 20.5,
+        "wind_chill": 22.6,
+        "dew_point": 11.5,
+        "wind": {
+          "speed": 10.1,
+          "gusts": 21.9,
+          "angle": 55,
+          "dir": "NE"
+        },
+        "cloud_cover": 47,
+        "pressure": 1029,
+        "precipitation": {
+          "total": 0,
+          "type": "none"
+        },
+        "ozone": 316,
+        "humidity": 51
+      },
+      {
+        "date": "2021-08-24T17:00:00",
+        "weather": "partly_sunny",
+        "summary": "Partly sunny",
+        "icon": 4,
+        "temperature": 21.6,
+        "feels_like": 20.2,
+        "wind_chill": 22.1,
+        "dew_point": 11.1,
+        "wind": {
+          "speed": 10.3,
+          "gusts": 21.8,
+          "angle": 59,
+          "dir": "ENE"
+        },
+        "cloud_cover": 41,
+        "pressure": 1028,
+        "precipitation": {
+          "total": 0,
+          "type": "none"
+        },
+        "ozone": 314,
+        "humidity": 51
+      },
+      {
+        "date": "2021-08-24T18:00:00",
+        "weather": "mostly_sunny",
+        "summary": "Mostly sunny",
+        "icon": 3,
+        "temperature": 20.4,
+        "feels_like": 19.7,
+        "wind_chill": 20.7,
+        "dew_point": 11.7,
+        "wind": {
+          "speed": 10,
+          "gusts": 20.1,
+          "angle": 63,
+          "dir": "ENE"
+        },
+        "cloud_cover": 16,
+        "pressure": 1028,
+        "precipitation": {
+          "total": 0,
+          "type": "none"
+        },
+        "ozone": 312,
+        "humidity": 57
+      },
+      {
+        "date": "2021-08-24T19:00:00",
+        "weather": "partly_sunny",
+        "summary": "Partly sunny",
+        "icon": 4,
+        "temperature": 19.4,
+        "feels_like": 18.3,
+        "wind_chill": 19.5,
+        "dew_point": 12.1,
+        "wind": {
+          "speed": 9,
+          "gusts": 17.1,
+          "angle": 65,
+          "dir": "ENE"
+        },
+        "cloud_cover": 58,
+        "pressure": 1028,
+        "precipitation": {
+          "total": 0,
+          "type": "none"
+        },
+        "ozone": 312,
+        "humidity": 62
+      },
+      {
+        "date": "2021-08-24T20:00:00",
+        "weather": "partly_sunny",
+        "summary": "Partly sunny",
+        "icon": 4,
+        "temperature": 17.9,
+        "feels_like": 17,
+        "wind_chill": 17.8,
+        "dew_point": 11.9,
+        "wind": {
+          "speed": 8.2,
+          "gusts": 15.8,
+          "angle": 59,
+          "dir": "ENE"
+        },
+        "cloud_cover": 54,
+        "pressure": 1028,
+        "precipitation": {
+          "total": 0,
+          "type": "none"
+        },
+        "ozone": 310,
+        "humidity": 67
+      },
+      {
+        "date": "2021-08-24T21:00:00",
+        "weather": "partly_sunny",
+        "summary": "Partly sunny",
+        "icon": 4,
+        "temperature": 16.3,
+        "feels_like": 15.2,
+        "wind_chill": 15.8,
+        "dew_point": 12,
+        "wind": {
+          "speed": 8.4,
+          "gusts": 15.6,
+          "angle": 54,
+          "dir": "NE"
+        },
+        "cloud_cover": 64,
+        "pressure": 1029,
+        "precipitation": {
+          "total": 0,
+          "type": "none"
+        },
+        "ozone": 308,
+        "humidity": 75
+      },
+      {
+        "date": "2021-08-24T22:00:00",
+        "weather": "cloudy",
+        "summary": "Cloudy",
+        "icon": 6,
+        "temperature": 15.1,
+        "feels_like": 13.8,
+        "wind_chill": 14.4,
+        "dew_point": 11.9,
+        "wind": {
+          "speed": 7.7,
+          "gusts": 14.1,
+          "angle": 50,
+          "dir": "NE"
+        },
+        "cloud_cover": 88,
+        "pressure": 1029,
+        "precipitation": {
+          "total": 0,
+          "type": "none"
+        },
+        "ozone": 307,
+        "humidity": 81
+      },
+      {
+        "date": "2021-08-24T23:00:00",
+        "weather": "partly_sunny",
+        "summary": "Partly sunny",
+        "icon": 4,
+        "temperature": 14.8,
+        "feels_like": 14.1,
+        "wind_chill": 14.1,
+        "dew_point": 12,
+        "wind": {
+          "speed": 7.5,
+          "gusts": 12.2,
+          "angle": 40,
+          "dir": "NE"
+        },
+        "cloud_cover": 63,
+        "pressure": 1029,
+        "precipitation": {
+          "total": 0,
+          "type": "none"
+        },
+        "ozone": 306,
+        "humidity": 83
+      }
+    ]
+  }
