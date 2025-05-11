@@ -1,4 +1,5 @@
 import { getCurrentWeather } from "../api";
+import WeatherIcon from "./WeatherIcon";
 import '../styles/components/CurrentWeather.scss';
 
 function CurrentWeather() {
@@ -8,7 +9,7 @@ function CurrentWeather() {
     cloud_cover,
     feels_like,
     humidity,
-    icon_num,
+    icon,
     precipitation,
     summary,
     temperature,
@@ -71,16 +72,15 @@ function CurrentWeather() {
       unit: units.visibility,
     },
   ];
+  console.log("Current weather object:", data);
 
 
   return (
     <div className="CurrentWeather">
       <div className="temperature">
         <div className="weather-icon">
-          <img
-            src={`${process.env.PUBLIC_URL}/dist/weather_icons/set04/big/${icon_num}.png`}
-            alt={summary}
-          />
+        
+         <WeatherIcon iconNumber={icon} summary={summary} />
         </div>
         <div className="value">
           <div className="real"> {temperature} °C</div>
