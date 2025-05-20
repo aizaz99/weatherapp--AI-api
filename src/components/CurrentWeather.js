@@ -2,8 +2,8 @@ import { getCurrentWeather } from "../api";
 import WeatherIcon from "./WeatherIcon";
 import '../styles/components/CurrentWeather.scss';
 
-function CurrentWeather() {
-  const data = getCurrentWeather()[0]; // <-- Fix here
+function CurrentWeather({data}) {
+  
 
   const {
     cloud_cover,
