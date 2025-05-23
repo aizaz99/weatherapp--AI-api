@@ -1,6 +1,9 @@
+import { useContext } from "react";
 import WeatherIcon from "./WeatherIcon";
+import WeatherContext from "../context/weather.context";
 
 function HourlyForecastWidget({ data }) {
+  const {units} = useContext(WeatherContext)
   const { date, icon, summary, temperature, precipitation, wind } = data;
 
   const locale = navigator.language;
@@ -52,10 +55,10 @@ function HourlyForecastWidget({ data }) {
         <div className="icon">
           <WeatherIcon iconNumber={icon} summary={summary} />
         </div>
-        <div className="temperature">{Math.round(temperature)} °C</div>
+        <div className="temperature">{Math.round(temperature)} {units.temperature}</div>
       </div>
       <div className="precipitation">
-        {Math.round(precipitation?.total || 0)} mm/h
+        {Math.round(precipitation?.total || 0)} {units.precipitation}
       </div>
       <div className="wind">
         <div className="speed">{Math.round(wind?.speed || 0)} mph</div>

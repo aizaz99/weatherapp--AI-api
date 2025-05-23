@@ -1,15 +1,14 @@
-import { getCurrentWeather } from "../api";
-import WeatherIcon from "./WeatherIcon";
+import { useContext } from 'react';
+import WeatherContext from '../context/weather.context';
+import WeatherIcon from './WeatherIcon';
 import '../styles/components/CurrentWeather.scss';
 
-function CurrentWeather({data}) {
-  
-
+function CurrentWeather({ data }) {
   const {
     cloud_cover,
     feels_like,
     humidity,
-    icon,
+    icon_num,
     precipitation,
     summary,
     temperature,
@@ -17,16 +16,7 @@ function CurrentWeather({data}) {
     visibility,
     wind,
   } = data;
-
-  const units = {
-    precipitation: 'mm',
-    wind_speed: 'km/h',
-    humidity: '%',
-    uv_index: '', // Usually unitless
-    cloud_cover: '%',
-    visibility: 'km',
-  };
-  
+  const { units } = useContext(WeatherContext);
 
   const otherInfoWidgets = [
     {
@@ -72,38 +62,39 @@ function CurrentWeather({data}) {
       unit: units.visibility,
     },
   ];
-  console.log("Current weather object:", data);
-
 
   return (
-    <div className="CurrentWeather">
-      <div className="temperature">
-        <div className="weather-icon">
-        
-         <WeatherIcon iconNumber={icon} summary={summary} />
+    <div className='CurrentWeather'>
+      <div className='temperature'>
+        <div className='weather-icon'>
+          <WeatherIcon iconNumber={icon_num} summary={summary} />
         </div>
-        <div className="value">
-          <div className="real"> {temperature} °C</div>
-          <div className="feels_like">Feels like {feels_like} °C</div>
+        <div className='value'>
+          <div className='real'>
+            {Math.round(temperature)} {units.temperature}
+          </div>
+          <div className='feels_like'>
+            feels like {Math.round(feels_like)} {units.temperature}
+          </div>
         </div>
-        <div className="summary">{summary}</div>
+        <div className='summary'>{summary}</div>
       </div>
-      <div className="other-infos">
-      {otherInfoWidgets.map(({ id, icon, name, value, unit }) => (
-  <div className="widget" key={id}>
-    <div className="widget-container">
-      <div className="info">
-        <div className="icon">
-          <i className={`bi bi-${icon}`}></i>
-        </div>
-        <div className="value">
-          {value} {unit}
-        </div>
-      </div>
-      <div className="name"> {name} </div>
-    </div>
-  </div>
-))}
+      <div className='other-infos'>
+        {otherInfoWidgets.map(({ id, name, icon, value, unit }) => (
+          <div className='widget' key={id}>
+            <div className='widget-container'>
+              <div className='info'>
+                <div className='icon'>
+                  <i className={`bi bi-${icon}`}></i>
+                </div>
+                <div className='value'>
+                  {value} {unit}
+                </div>
+              </div>
+              <div className='name'>{name}</div>
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );
