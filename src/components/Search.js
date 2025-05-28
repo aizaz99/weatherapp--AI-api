@@ -9,6 +9,7 @@ function Search() {
   async function onSearch (e)  {
     setText(e.target.value);
    const data = await searchPlaces(e.target.value)
+   setSearchResults(data);
   }
   return (
    <>
