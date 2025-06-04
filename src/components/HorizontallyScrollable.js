@@ -1,29 +1,37 @@
-import { useRef } from "react";
-function HorizontallyScrollable({children, className=""}) {
-    const scrollRef = useRef();
+import { useRef } from 'react';
 
-    const handleMouseDown = (evt) => {
-        const oldX = evt.pageX;
-        const scrollLeft = scrollRef.current.scrollLeft;
+function HorizontallyScrollable({ children, className = '' }) {
+  const scrollRef = useRef();
 
-        const handleMouseMOve = (evt) => {
-            const newX =evt.pageX
-            const offset = newX-oldX;
+  const handleMouseDown = (evt) => {
+    const oldX = evt.pageX;
+    const scrollLeft = scrollRef.current.scrollLeft;
 
-            scrollRef.current.scrollLeft =scrollLeft-offset;
-        }
+    const handleMouseMove = (evt) => {
+      const newX = evt.pageX;
+      const offset = newX - oldX;
 
-        const handleMouseUp = () => {
-            window.removeEventListener('mousemove', handleMouseMOve)
-            window.removeEventListener('mouseup', handleMouseUp);
-        }
-        window.addEventListener('mousemove', handleMouseMOve);
-        window.addEventListener('mouseup', handleMouseUp);
+      scrollRef.current.scrollLeft = scrollLeft - offset;
+    };
 
-    }
+    const handleMouseUp = () => {
+      window.removeEventListener('mousemove', handleMouseMove);
+      window.removeEventListener('mouseup', handleMouseUp);
+    };
+
+    window.addEventListener('mousemove', handleMouseMove);
+    window.addEventListener('mouseup', handleMouseUp);
+  };
+
   return (
-    <div className={className} ref={scrollRef} onMouseDown={handleMouseDown}>{children}</div>
-  )
+    <div
+      className={className}
+      ref={scrollRef}
+      onMouseDown={handleMouseDown}
+    >
+      {children}
+    </div>
+  );
 }
 
-export default HorizontallyScrollable
+export default HorizontallyScrollable;

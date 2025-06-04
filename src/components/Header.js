@@ -4,13 +4,13 @@ import Settings from './Settings';
 import '../styles/components/Header.scss';
 
 function Header() {
-    return(
-        <div className='Header'>
-            <Place />
-            <Search />
-            <Settings />
-        </div>
-    )
+  return (
+    <div className='Header'>
+      <Place />
+      <Search />
+      <Settings />
+    </div>
+  );
 }
 
-export default Header
+export default Header;

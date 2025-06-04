@@ -2,7 +2,11 @@ import axios from 'axios';
 
 const API_KEY = process.env.REACT_APP_API_KEY;
 
-export async function getWeatherData(endpoint, place_id, measurementSystem) {
+export async function getWeatherData(
+  endpoint,
+  place_id,
+  measurementSystem
+) {
   const options = {
     method: 'GET',
     url: `https://ai-weather-by-meteosource.p.rapidapi.com/${endpoint}`,
@@ -22,7 +26,6 @@ export async function getWeatherData(endpoint, place_id, measurementSystem) {
     return response.data;
   } catch (error) {
     console.error(error);
-    throw error; // optionally re-throw to handle it at the call site
   }
 }
 
@@ -45,6 +48,5 @@ export async function searchPlaces(text) {
     return response.data;
   } catch (error) {
     console.error(error);
-    throw error;
   }
 }

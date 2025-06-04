@@ -100,4 +100,4 @@ function CurrentWeather({ data }) {
   );
 }
 
-export default CurrentWeather;
+export default CurrentWeather
